@@ -103,11 +103,10 @@ class ProductosActivity : AppCompatActivity() {
             }
             "Combinaciones"->{
                 imageView.setImageResource(R.drawable.combinations)
-                menu.add(Product("Mojarra",R.drawable.mojarra, "Tilapia frita servida con lechuga, cebolla, jitomate, aguacate y tortillas - Fried tilapia served with lettuce, onions, tomatoes, avocado and tortillas.", 17.99))
+                menu.add(Product("Mojarra",R.drawable.menudo, "Tilapia frita servida con lechuga, cebolla, jitomate, aguacate y tortillas - Fried tilapia served with lettuce, onions, tomatoes, avocado and tortillas.", 17.99))
                 menu.add(Product("Ceviche",R.drawable.ceviche, "Tilapia, camarones, Aguacate y pico de gallo servido con Chips / Tilapia, Shrimp, Avocado and pico de gallo, served with Chips", 6.99))
                 menu.add(Product("Botana de camarones al mojo de ajo",R.drawable.botanacamarones,"",19.99))
                 menu.add(Product("Botana de camarones al mojo de ajo",R.drawable.botanacamarones,"",19.99))
-
             }
             "Especialidades"->{
                 imageView.setImageResource(R.drawable.especialidades)
